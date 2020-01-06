@@ -1,0 +1,704 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.2_04" class="java.beans.XMLDecoder"> 
+ <object class="pdesmas_sim.execution.Parameters">  
+ 
+   <void property="rootImbalanceBonus"> 
+    <double>1</double>
+   </void>
+ 
+  <void property="SSVTypeInitP"> 
+   <array class="double" length="4"> 
+    <void index="0"> 
+     <double>0.25</double> 
+    </void> 
+    <void index="1"> 
+     <double>0.25</double> 
+    </void> 
+    <void index="2"> 
+     <double>0.25</double> 
+    </void> 
+    <void index="3"> 
+     <double>0.25</double> 
+    </void> 
+   </array> 
+  </void> 
+  <void property="alpParameters"> 
+   <array class="pdesmas_sim.execution.ALPParameters" length="8"> 
+    <void index="0"> 
+     <object class="pdesmas_sim.execution.ALPParameters"> 
+      <void property="accessBehaviour"> 
+       <array id="doubleArrayArray0" class="[D" length="4"> 
+        <void index="0"> 
+         <array class="double" length="5"> 
+          <void index="0"> 
+           <double>0.6</double> 
+          </void> 
+          <void index="1"> 
+           <double>0.2</double> 
+          </void> 
+          <void index="2"> 
+           <double>0.2</double> 
+          </void> 
+         </array> 
+        </void> 
+        <void index="1"> 
+         <array class="double" length="5"> 
+          <void index="0"> 
+           <double>0.6</double> 
+          </void> 
+          <void index="1"> 
+           <double>0.2</double> 
+          </void> 
+          <void index="2"> 
+           <double>0.2</double> 
+          </void> 
+         </array> 
+        </void> 
+        <void index="2"> 
+         <array class="double" length="5"> 
+          <void index="0"> 
+           <double>0.6</double> 
+          </void> 
+          <void index="1"> 
+           <double>0.2</double> 
+          </void> 
+          <void index="2"> 
+           <double>0.2</double> 
+          </void> 
+         </array> 
+        </void> 
+        <void index="3"> 
+         <array class="double" length="5"> 
+          <void index="0"> 
+           <double>0.6</double> 
+          </void> 
+          <void index="1"> 
+           <double>0.2</double> 
+          </void> 
+          <void index="2"> 
+           <double>0.2</double> 
+          </void> 
+         </array> 
+        </void> 
+       </array> 
+      </void> 
+      <void property="accessP"> 
+       <array id="doubleArray0" class="double" length="4"> 
+          <void index="0"> 
+           <double>0.25</double> 
+          </void> 
+          <void index="1"> 
+           <double>0.25</double> 
+          </void> 
+          <void index="2"> 
+           <double>0.25</double> 
+          </void> 
+          <void index="3"> 
+           <double>0.25</double> 
+          </void> 
+       </array>
+      </void> 
+      <void property="clpNum"> 
+       <int>7</int> 
+      </void> 
+      <void property="eventsPerStepMean"> 
+       <double>1.0</double> 
+      </void> 
+      <void property="rangeDev"> 
+       <array id="doubleArray1" class="double" length="4"/> 
+      </void> 
+      <void property="rangeMean"> 
+       <array id="doubleArray2" class="double" length="4"> 
+        <void index="0"> 
+         <double>5.0</double> 
+        </void> 
+        <void index="1"> 
+         <double>5.0</double> 
+        </void> 
+        <void index="2"> 
+         <double>5.0</double> 
+        </void> 
+        <void index="3"> 
+         <double>5.0</double> 
+        </void> 
+       </array> 
+      </void> 
+      <void property="stepSizeDev"> 
+       <array id="doubleArray3" class="double" length="2"> 
+        <void index="0"> 
+         <double>0.1</double> 
+        </void> 
+        <void index="1"> 
+         <double>0.1</double> 
+        </void> 
+       </array> 
+      </void> 
+      <void property="stepSizeMean"> 
+       <array id="doubleArray4" class="double" length="2"> 
+        <void index="0"> 
+         <double>2.0</double> 
+        </void> 
+        <void index="1"> 
+         <double>2.0</double> 
+        </void> 
+       </array> 
+      </void> 
+      <void property="targetDistanceDev"> 
+       <double>1.0</double> 
+      </void> 
+      <void property="targetDistanceMean"> 
+       <double>3.0</double> 
+      </void> 
+      <void property="writeValueOffsetDistributions"> 
+       <array id="AbstractDistributionArray0" class="pdesmas_sim.model.distributions.AbstractDistribution" length="4"> 
+        <void index="0"> 
+         <object class="pdesmas_sim.model.distributions.UniformDistribution"> 
+          <void property="lowerBorder"> 
+           <double>0.0</double> 
+          </void> 
+          <void property="upperBorder"> 
+           <double>100.0</double> 
+          </void> 
+         </object> 
+        </void> 
+        <void index="1"> 
+         <object class="pdesmas_sim.model.distributions.UniformDistribution"> 
+          <void property="lowerBorder"> 
+           <double>0.0</double> 
+          </void> 
+          <void property="upperBorder"> 
+           <double>100.0</double> 
+          </void> 
+         </object> 
+        </void> 
+        <void index="2"> 
+         <object class="pdesmas_sim.model.distributions.UniformDistribution"> 
+          <void property="lowerBorder"> 
+           <double>0.0</double> 
+          </void> 
+          <void property="upperBorder"> 
+           <double>100.0</double> 
+          </void> 
+         </object> 
+        </void> 
+        <void index="3"> 
+         <object class="pdesmas_sim.model.distributions.UniformDistribution"> 
+          <void property="lowerBorder"> 
+           <double>0.0</double> 
+          </void> 
+          <void property="upperBorder"> 
+           <double>100.0</double> 
+          </void> 
+         </object> 
+        </void> 
+       </array> 
+      </void> 
+     </object> 
+    </void> 
+    <void index="1"> 
+     <object class="pdesmas_sim.execution.ALPParameters"> 
+      <void property="accessBehaviour"> 
+       <object idref="doubleArrayArray0"/> 
+      </void> 
+      <void property="accessP"> 
+       <object idref="doubleArray0"/> 
+      </void> 
+      <void property="clpNum"> 
+       <int>8</int> 
+      </void> 
+      <void property="eventsPerStepMean"> 
+       <double>1.0</double> 
+      </void> 
+      <void property="rangeDev"> 
+       <object idref="doubleArray1"/> 
+      </void> 
+      <void property="rangeMean"> 
+       <object idref="doubleArray2"/> 
+      </void> 
+      <void property="stepSizeDev"> 
+       <object idref="doubleArray3"/> 
+      </void> 
+      <void property="stepSizeMean"> 
+       <object idref="doubleArray4"/> 
+      </void> 
+      <void property="targetDistanceDev"> 
+       <double>1.0</double> 
+      </void> 
+      <void property="targetDistanceMean"> 
+       <double>3.0</double> 
+      </void> 
+      <void property="writeValueOffsetDistributions"> 
+       <object idref="AbstractDistributionArray0"/> 
+      </void> 
+     </object> 
+    </void> 
+    <void index="2"> 
+     <object class="pdesmas_sim.execution.ALPParameters"> 
+      <void property="accessBehaviour"> 
+       <object idref="doubleArrayArray0"/> 
+      </void> 
+      <void property="accessP"> 
+       <object idref="doubleArray0"/> 
+      </void> 
+      <void property="clpNum"> 
+       <int>9</int> 
+      </void> 
+      <void property="eventsPerStepMean"> 
+       <double>1.0</double> 
+      </void> 
+      <void property="rangeDev"> 
+       <object idref="doubleArray1"/> 
+      </void> 
+      <void property="rangeMean"> 
+       <object idref="doubleArray2"/> 
+      </void> 
+      <void property="stepSizeDev"> 
+       <object idref="doubleArray3"/> 
+      </void> 
+      <void property="stepSizeMean"> 
+       <object idref="doubleArray4"/> 
+      </void> 
+      <void property="targetDistanceDev"> 
+       <double>1.0</double> 
+      </void> 
+      <void property="targetDistanceMean"> 
+       <double>3.0</double> 
+      </void> 
+      <void property="writeValueOffsetDistributions"> 
+       <object idref="AbstractDistributionArray0"/> 
+      </void> 
+     </object> 
+    </void> 
+    <void index="3"> 
+     <object class="pdesmas_sim.execution.ALPParameters"> 
+      <void property="accessBehaviour"> 
+       <object idref="doubleArrayArray0"/> 
+      </void> 
+      <void property="accessP"> 
+       <object idref="doubleArray0"/> 
+      </void> 
+      <void property="clpNum"> 
+       <int>10</int> 
+      </void> 
+      <void property="eventsPerStepMean"> 
+       <double>1.0</double> 
+      </void> 
+      <void property="rangeDev"> 
+       <object idref="doubleArray1"/> 
+      </void> 
+      <void property="rangeMean"> 
+       <object idref="doubleArray2"/> 
+      </void> 
+      <void property="stepSizeDev"> 
+       <object idref="doubleArray3"/> 
+      </void> 
+      <void property="stepSizeMean"> 
+       <object idref="doubleArray4"/> 
+      </void> 
+      <void property="targetDistanceDev"> 
+       <double>1.0</double> 
+      </void> 
+      <void property="targetDistanceMean"> 
+       <double>3.0</double> 
+      </void> 
+      <void property="writeValueOffsetDistributions"> 
+       <object idref="AbstractDistributionArray0"/> 
+      </void> 
+     </object> 
+    </void> 
+    <void index="4"> 
+     <object class="pdesmas_sim.execution.ALPParameters"> 
+      <void property="accessBehaviour"> 
+       <object idref="doubleArrayArray0"/> 
+      </void> 
+      <void property="accessP"> 
+       <object idref="doubleArray0"/> 
+      </void> 
+      <void property="clpNum"> 
+       <int>11</int> 
+      </void> 
+      <void property="eventsPerStepMean"> 
+       <double>1.0</double> 
+      </void> 
+      <void property="rangeDev"> 
+       <object idref="doubleArray1"/> 
+      </void> 
+      <void property="rangeMean"> 
+       <object idref="doubleArray2"/> 
+      </void> 
+      <void property="stepSizeDev"> 
+       <object idref="doubleArray3"/> 
+      </void> 
+      <void property="stepSizeMean"> 
+       <object idref="doubleArray4"/> 
+      </void> 
+      <void property="targetDistanceDev"> 
+       <double>1.0</double> 
+      </void> 
+      <void property="targetDistanceMean"> 
+       <double>3.0</double> 
+      </void> 
+      <void property="writeValueOffsetDistributions"> 
+       <object idref="AbstractDistributionArray0"/> 
+      </void> 
+     </object> 
+    </void> 
+    <void index="5"> 
+     <object class="pdesmas_sim.execution.ALPParameters"> 
+      <void property="accessBehaviour"> 
+       <object idref="doubleArrayArray0"/> 
+      </void> 
+      <void property="accessP"> 
+       <object idref="doubleArray0"/> 
+      </void> 
+      <void property="clpNum"> 
+       <int>12</int> 
+      </void> 
+      <void property="eventsPerStepMean"> 
+       <double>1.0</double> 
+      </void> 
+      <void property="rangeDev"> 
+       <object idref="doubleArray1"/> 
+      </void> 
+      <void property="rangeMean"> 
+       <object idref="doubleArray2"/> 
+      </void> 
+      <void property="stepSizeDev"> 
+       <object idref="doubleArray3"/> 
+      </void> 
+      <void property="stepSizeMean"> 
+       <object idref="doubleArray4"/> 
+      </void> 
+      <void property="targetDistanceDev"> 
+       <double>1.0</double> 
+      </void> 
+      <void property="targetDistanceMean"> 
+       <double>3.0</double> 
+      </void> 
+      <void property="writeValueOffsetDistributions"> 
+       <object idref="AbstractDistributionArray0"/> 
+      </void> 
+     </object> 
+    </void> 
+    <void index="6"> 
+     <object class="pdesmas_sim.execution.ALPParameters"> 
+      <void property="accessBehaviour"> 
+       <object idref="doubleArrayArray0"/> 
+      </void> 
+      <void property="accessP"> 
+       <object idref="doubleArray0"/> 
+      </void> 
+      <void property="clpNum"> 
+       <int>13</int> 
+      </void> 
+      <void property="eventsPerStepMean"> 
+       <double>1.0</double> 
+      </void> 
+      <void property="rangeDev"> 
+       <object idref="doubleArray1"/> 
+      </void> 
+      <void property="rangeMean"> 
+       <object idref="doubleArray2"/> 
+      </void> 
+      <void property="stepSizeDev"> 
+       <object idref="doubleArray3"/> 
+      </void> 
+      <void property="stepSizeMean"> 
+       <object idref="doubleArray4"/> 
+      </void> 
+      <void property="targetDistanceDev"> 
+       <double>1.0</double> 
+      </void> 
+      <void property="targetDistanceMean"> 
+       <double>3.0</double> 
+      </void> 
+      <void property="writeValueOffsetDistributions"> 
+       <object idref="AbstractDistributionArray0"/> 
+      </void> 
+     </object> 
+    </void> 
+    <void index="7"> 
+     <object class="pdesmas_sim.execution.ALPParameters"> 
+      <void property="accessBehaviour"> 
+       <object idref="doubleArrayArray0"/> 
+      </void> 
+      <void property="accessP"> 
+       <object idref="doubleArray0"/> 
+      </void> 
+      <void property="clpNum"> 
+       <int>14</int> 
+      </void> 
+      <void property="eventsPerStepMean"> 
+       <double>1.0</double> 
+      </void> 
+      <void property="rangeDev"> 
+       <object idref="doubleArray1"/> 
+      </void> 
+      <void property="rangeMean"> 
+       <object idref="doubleArray2"/> 
+      </void> 
+      <void property="stepSizeDev"> 
+       <object idref="doubleArray3"/> 
+      </void> 
+      <void property="stepSizeMean"> 
+       <object idref="doubleArray4"/> 
+      </void> 
+      <void property="targetDistanceDev"> 
+       <double>1.0</double> 
+      </void> 
+      <void property="targetDistanceMean"> 
+       <double>3.0</double> 
+      </void> 
+      <void property="writeValueOffsetDistributions"> 
+       <object idref="AbstractDistributionArray0"/> 
+      </void> 
+     </object> 
+    </void> 
+   </array> 
+  </void> 
+  <void property="directory"> 
+   <string>default_experiment\</string> 
+  </void> 
+  <void property="name"> 
+   <string>test_lb</string> 
+  </void> 
+  <void property="numOfEnvironmentDims"> 
+   <int>2</int> 
+  </void> 
+  <void property="numOfInitialSSVs"> 
+   <int>500</int> 
+  </void> 
+  <void property="numOfTreeLevels"> 
+   <int>4</int> 
+  </void> 
+  <void property="randSeed"> 
+   <long>1123077318904</long> 
+  </void> 
+  <void property="routingAlgorithms"> 
+   <array class="pdesmas_sim.algorithms.routing.AbstractRoutingAlgorithm" length="3"> 
+    <void index="0"> 
+     <object class="pdesmas_sim.algorithms.routing.AddressBasedRoutingAlgorithm"/> 
+    </void> 
+    <void index="1"> 
+     <object class="pdesmas_sim.algorithms.routing.RangeBasedRoutingAlgorithm"/> 
+    </void> 
+    <void index="2"> 
+     <object class="pdesmas_sim.algorithms.routing.RangeBasedIDRangeRoutingAlgorithm"/> 
+    </void> 
+   </array> 
+  </void> 
+  <void property="ssvDB"> 
+   <object class="pdesmas_sim.model.SSVDB"> 
+    <void property="numOfCLPs"> 
+     <int>15</int> 
+    </void> 
+    <void property="numOfInitialSSVs"> 
+     <int>100</int> 
+    </void> 
+    <void property="numOfTypes"> 
+     <int>4</int> 
+    </void> 
+   </object> 
+  </void> 
+  <void property="ssvTypes"> 
+   <array class="pdesmas_sim.model.SSVType" length="4"> 
+    <void index="0"> 
+     <object class="pdesmas_sim.model.SSVType"> 
+      <void property="spatial"> 
+       <boolean>true</boolean> 
+      </void> 
+      <void property="upperBorder"> 
+       <double>100.0</double> 
+      </void> 
+      <void property="valueDistribution"> 
+       <object class="pdesmas_sim.model.distributions.UniformDistribution"> 
+        <void property="lowerBorder"> 
+         <double>0.0</double> 
+        </void> 
+        <void property="upperBorder"> 
+         <double>100.0</double> 
+        </void> 
+       </object> 
+      </void> 
+     </object> 
+    </void> 
+    <void index="1"> 
+     <object class="pdesmas_sim.model.SSVType"> 
+      <void property="dimension"> 
+       <int>1</int> 
+      </void> 
+      <void property="spatial"> 
+       <boolean>true</boolean> 
+      </void> 
+      <void property="upperBorder"> 
+       <double>100.0</double> 
+      </void> 
+      <void property="valueDistribution"> 
+       <object class="pdesmas_sim.model.distributions.UniformDistribution"> 
+        <void property="lowerBorder"> 
+         <double>0.0</double> 
+        </void> 
+        <void property="upperBorder"> 
+         <double>100.0</double> 
+        </void> 
+       </object> 
+      </void> 
+     </object> 
+    </void> 
+    <void index="2"> 
+     <object class="pdesmas_sim.model.SSVType"> 
+      <void property="dimension"> 
+       <int>2</int> 
+      </void> 
+      <void property="upperBorder"> 
+       <double>100.0</double> 
+      </void> 
+      <void property="valueDistribution"> 
+       <object class="pdesmas_sim.model.distributions.UniformDistribution"> 
+        <void property="lowerBorder"> 
+         <double>0.0</double> 
+        </void> 
+        <void property="upperBorder"> 
+         <double>100.0</double> 
+        </void> 
+       </object> 
+      </void> 
+     </object> 
+    </void> 
+    <void index="3"> 
+     <object class="pdesmas_sim.model.SSVType"> 
+      <void property="dimension"> 
+       <int>3</int> 
+      </void> 
+      <void property="upperBorder"> 
+       <double>100.0</double> 
+      </void> 
+      <void property="valueDistribution"> 
+       <object class="pdesmas_sim.model.distributions.UniformDistribution"> 
+        <void property="lowerBorder"> 
+         <double>0.0</double> 
+        </void> 
+        <void property="upperBorder"> 
+         <double>100.0</double> 
+        </void> 
+       </object> 
+      </void> 
+     </object> 
+    </void> 
+   </array> 
+  </void> 
+  <void property="timeSteps"> 
+   <int>100</int> 
+  </void>
+  
+  <void property="saveResults">
+   <void method="add"> 
+    <string>overallNumOfMessages</string> 
+   </void> 
+   <void method="add"> 
+    <string>overallNumOfHops</string> 
+   </void>
+   <void method="add"> 
+    <string>rReadNumOfMessages</string> 
+   </void> 
+   <void method="add"> 
+    <string>rReadNumOfHops</string> 
+   </void>
+   <void method="add"> 
+    <string>idReadNumOfMessages</string> 
+   </void> 
+   <void method="add"> 
+    <string>idReadNumOfHops</string> 
+   </void>
+   <void method="add"> 
+    <string>writeNumOfMessages</string> 
+   </void> 
+   <void method="add"> 
+    <string>writeNumOfHops</string> 
+   </void>
+   <void method="add"> 
+    <string>deleteNumOfMessages</string> 
+   </void> 
+   <void method="add"> 
+    <string>deleteNumOfHops</string> 
+   </void>
+   <void method="add"> 
+    <string>addNumOfMessages</string> 
+   </void> 
+   <void method="add"> 
+    <string>addNumOfHops</string> 
+   </void> 
+   <void method="add"> 
+    <string>writeIDLookUpMessages</string> 
+   </void> 
+   <void method="add"> 
+    <string>writeUpdateMessages</string> 
+   </void> 
+  </void> 
+  
+  <!-- Test statistic logs -->
+  <void property="saveLBResults">
+     <void method="add"> 
+    <string>migrationCount</string> 
+   </void> 
+   <void method="add"> 
+    <string>swapCount</string> 
+   </void> 
+  </void> 
+
+  <!-- Configuring load balancing algorithm -->
+  <void property="loadBalancing"> 
+   <object class="pdesmas_sim.algorithms.loadbalancing.TonsLoadBalancingAlgorithm"> 
+        
+        <void property="considerCLPThreshold"> 
+         <int>0</int> 
+        </void>        
+        <void property="considerSSVThreshold"> 
+         <int>1</int> 
+        </void>
+        <void property="portDecisionThreshold"> 
+         <double>0.25</double> 
+        </void>
+        <void property="swapCostThreshold"> 
+         <int>0</int> 
+        </void>
+            
+   </object>
+  </void> 
+
+  <!-- Test batch mode -->
+
+  <void property="dim1FieldName"> 
+   <string>numOfInitialSSVs</string> 
+  </void> 
+
+  <void property="dim1Resolution"> 
+   <int>1</int> 
+  </void>
+
+  <void property="dim1LowerBorder"> 
+   <int>100</int> 
+  </void>
+  
+  <void property="dim1UpperBorder"> 
+   <int>100</int> 
+  </void>
+
+  <void property="dim2FieldName"> 
+   <string>loadBalancing.considerSSVThreshold</string> 
+  </void> 
+
+  <void property="dim2Resolution"> 
+   <int>1</int> 
+  </void>
+
+  <void property="dim2LowerBorder"> 
+   <int>0</int> 
+  </void>
+  
+  <void property="dim2UpperBorder"> 
+   <int>100</int> 
+  </void> 
+   
+ </object> 
+</java> 
